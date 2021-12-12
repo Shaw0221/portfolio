@@ -28,6 +28,9 @@ body{
     margin: 0;
     padding-top: 250px;
     text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    color:white;
   }
 
   /* Navigation */
@@ -67,6 +70,10 @@ body{
 
   .email-list{
       font-size: 1.25rem
+  }
+
+  .knowledgelist{
+      font-size: 1.25rem;
   }
 
   /*Typewriter Animation*/
@@ -144,10 +151,6 @@ body{
     .desktop-logo {
         display: inline-block;
         max-width: 300px;
-      }
-
-      .banner h1 {
-        color: white;
       }
 
       /* Navigation */
