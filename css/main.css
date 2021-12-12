@@ -1,0 +1,166 @@
+
+/*Font*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  /*Container*/
+.container{
+    background-color: #F3DDF2;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%
+  }
+
+html,
+body{
+      height: 100%;
+      width:100%;
+  }
+
+  /*Banner*/
+.banner {
+    background: url("../images/picofme.png") no-repeat center bottom;
+  }
+
+  .banner h1 {
+    margin: 0;
+    padding-top: 250px;
+    text-align: center;
+  }
+
+  /* Navigation */
+.nav-list li {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    font-size: 1.5rem;
+    list-style-type: none;
+  }
+  
+  .nav-list a,
+  .nav-list a:link,
+  .nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    color: black;
+    transition: color .5s, background-color .5s;
+  }
+  
+  .nav-list a:hover,
+  .nav-list a:focus,
+  .nav-list a.current {
+    background-color: black;
+    color: white;
+    animation-duration: .5s;
+  }
+
+  /*Main Body*/
+  .info{
+      font-size: 1.25rem;
+  }
+
+  .contacth1{
+      font-size: 3rem;
+  }
+
+  .email-list{
+      font-size: 1.25rem
+  }
+
+  /*Typewriter Animation*/
+
+  :root {
+    --bg-color: hsl(49 37% 94%);
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 24;
+  }
+  
+  
+  .websitetitle{
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    position: relative;
+    font-family: "Source Code Pro", monospace;
+    position: relative;
+    width: max-content;
+  }
+  
+  .websitetitle::before,
+  .websitetitle::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .websitetitle::before {
+    background: #F3DDF2;
+    animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards;
+  }
+  
+  .websitetitle::after {
+    width: 0.125em;
+    background: black;
+    animation: typewriter var(--typewriterSpeed)
+        steps(var(--typewriterCharacters)) 1s forwards,
+      blink 750ms steps(var(--typewriterCharacters)) infinite;
+  }
+  
+  .subtitle {
+    color: hsl(0 0% 0% / 0.7);
+    font-size: 2rem;
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+  }
+  
+  @keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /*Media Query*/
+  @media screen and (min-width: 600px) {
+
+    .desktop-logo {
+        display: inline-block;
+        max-width: 300px;
+      }
+
+      .banner h1 {
+        color: white;
+      }
+
+      /* Navigation */
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-list li {
+    flex: 1;
+    border: none;
+    border: 1px solid grey;
+  }
+
+}
+
