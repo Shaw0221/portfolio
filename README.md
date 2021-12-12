@@ -13,6 +13,7 @@ Another challenge I faced while doing this assignment was that part of this assi
 
 
 Assets Used:
+
 -Tutorial on how to create a typewriter text animation using HTML and CSS (https://www.youtube.com/watch?v=w1nhwUGsG6M)
 
 -Layout for banner and navigation was inspired by the banner and navigation used in the mtm6130 week 11 code for "climate action" website (https://github.com/Shaw0221/Shaw0221.github.io/tree/master/week-11)
