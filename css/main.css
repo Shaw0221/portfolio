@@ -106,14 +106,14 @@ body{
   .websitetitle::before {
     background: #F3DDF2;
     animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 1s forwards;
+      steps(var(--typewriterCharacters)) .25s forwards;
   }
   
   .websitetitle::after {
     width: 0.125em;
     background: black;
     animation: typewriter var(--typewriterSpeed)
-        steps(var(--typewriterCharacters)) 1s forwards,
+        steps(var(--typewriterCharacters)) .25s forwards,
       blink 750ms steps(var(--typewriterCharacters)) infinite;
   }
   
@@ -123,7 +123,7 @@ body{
     font-weight: 400;
     opacity: 0;
     transform: translateY(3rem);
-    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+    animation: fadeInUp 1s ease calc(var(--typewriterSpeed) + 1s) forwards;
   }
   
   @keyframes typewriter {
