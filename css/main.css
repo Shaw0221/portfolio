@@ -11,13 +11,12 @@ html {
     background-color: #F3DDF2;
     padding: 1.5rem;
     height: 100%;
-    width: 100%
   }
 
 html,
 body{
       height: 100%;
-      width:100%;
+      background-color: #F6ECF5;
   }
 
   /*Banner*/
