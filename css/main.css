@@ -10,12 +10,14 @@ html {
 .container{
     background-color: #F3DDF2;
     padding: 1.5rem;
-    width: 100%;
+    width: auto;
+    height: auto;
   }
 
 html,
 body{
-      width: 100%;
+      width: auto;
+      height: auto;
       background-color: #F6ECF5;
   }
 
@@ -74,6 +76,41 @@ body{
 
   .knowledgelist{
       font-size: 1.25rem;
+  }
+
+  .wordpress-info{
+    float:right;
+    font-size: 1.25rem;
+  }
+
+  .shopify-info{
+    float:right;
+    font-size: 1.25rem;
+  }
+
+  .drupal-info{
+    float:right;
+    font-size: 1.25rem;
+  }
+
+  /*Images*/
+  .wordpress{
+    width: 45%;
+    height: auto;
+    margin:5px;
+  }
+
+  .shopify{
+    width: 45%;
+    height: auto;
+    margin: 5px;
+  }
+
+  .drupal{
+    width:45%;
+    height: auto;
+    margin: 5px;
+
   }
 
   /*Typewriter Animation*/
@@ -148,7 +185,7 @@ body{
   .websitetitle{
       display: inline-block;
   }
-  
+
   /*Media Query*/
   @media screen and (min-width: 600px) {
 
