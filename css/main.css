@@ -78,34 +78,46 @@ body {
 }
 
 .wordpress-info {
-  float: right;
   font-size: 1.25rem;
 }
 
 .shopify-info {
-  float: right;
   font-size: 1.25rem;
 }
 
 .drupal-info {
-  float: right;
   font-size: 1.25rem;
+}
+
+.wordpress-section{
+  overflow: auto;
+}
+
+.shopify-section{
+  overflow: auto;
+}
+
+.drupal-section{
+  overflow:auto;
 }
 
 /*Images*/
 .wordpress {
+  float: left;
   width: 45%;
   height: auto;
   margin: 5px;
 }
 
 .shopify {
+  float: left;
   width: 45%;
   height: auto;
   margin: 5px;
 }
 
 .drupal {
+  float: left;
   width: 45%;
   height: auto;
   margin: 5px;
